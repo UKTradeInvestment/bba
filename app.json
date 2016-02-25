@@ -1,0 +1,16 @@
+{
+  "name": "BBA",
+  "description": "The Big Book of Acronyms",
+  "repository": "https://github.com/ministryofjustice/bba",
+  "keywords": ["rails"],
+  "env": {
+    "TWITTER_KEY": {
+      "description": "Twitter key for this app to enable authentication.",
+      "required": true
+    },
+    "TWITTER_SECRET": {
+      "description": "Twitter key secret.",
+      "required": true
+    }
+  }
+}
